@@ -23,9 +23,4 @@ angular.module('angularApp')
 
 
 
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
   });

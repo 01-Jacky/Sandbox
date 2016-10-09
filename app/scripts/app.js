@@ -39,6 +39,11 @@ angular
         controller: 'GooglemapCtrl',
         controllerAs: 'googleMap'
       })
+      .when('/plotlyDemo', {
+        templateUrl: 'views/plotlydemo.html',
+        controller: 'PlotlydemoCtrl',
+        controllerAs: 'plotlyDemo'
+      })
       .otherwise({
         redirectTo: '/'
       });
