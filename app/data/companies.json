@@ -1,0 +1,33 @@
+{
+  "companies": [
+    {
+      "name": "Microsoft",
+      "city": "Redmond",
+      "costOfLiving": "High",
+      "lat": 47.65885,
+      "long": -122.14178
+    },
+    {
+      "name": "Facebook",
+      "city": "Menlo Park",
+      "costOfLiving": "Outragous",
+      "lat": 37.48462,
+      "long": -122.14786
+    },
+    {
+      "name": "Zillow",
+      "city": "Seattle",
+      "costOfLiving": "High",
+      "lat": 47.60764,
+      "long": -122.33812
+    },
+    {
+      "name": "Epic",
+      "city": "Wisconsin",
+      "costOfLiving": "Dirt cheap",
+      "lat": 42.99682019999999,
+      "long": -89.56801139999999
+    }
+  ]
+}
+
