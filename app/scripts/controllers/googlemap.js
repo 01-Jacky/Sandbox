@@ -63,21 +63,12 @@ angular.module('angularApp')
       $scope.propertyName = propertyName;
     };
 
-
-
-    $scope.orderByMe = function(x) {
-      $scope.myOrderBy = x;
-    }
-
-
-
-
     $scope.searchString = {};
     $scope.searchString.costOfLiving = '';
 
 
-    function getRandomArbitrary(min, max) {
-      return Math.random() * (max - min) + min;
-    }
+    // function getRandomArbitrary(min, max) {
+    //   return Math.random() * (max - min) + min;
+    // }
 
   });
