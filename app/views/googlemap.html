@@ -11,17 +11,34 @@
 
 
 <section class="table-section">
-  <div class="table-filters">Search: <input type="text" ng-model="searchString"></div>
+  <div class="table-filters">
+    <!--<label>Search: <input type="text" ng-model="searchString"></label>-->
+    <label>Company<input ng-model="searchString.name"></label>
+    <label>City<input ng-model="searchString.city"></label>
+    <label>Cost
+      <select data-ng-model="searchString.costOfLiving">
+        <option value="">All</option>
+        <option value="Outragous">Outragous</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+        <option value="Dirt Cheap">Dirt Cheap</option>
+
+      </select>
+    </label>
+  </div>
+
   <table class="pure-table">
     <thead>
     <tr>
-      <th ng-click="orderByMe('name')">Company <i class="fa fa-fw fa-sort"></i></th>
-      <th ng-click="orderByMe('city')">City <i class="fa fa-fw fa-sort"></i></th>
-      <th ng-click="orderByMe('costOfLiving')">Cost of Living <i class="fa fa-fw fa-sort"></i></th>
+      <!--<pre>Sort by = {{propertyName}}; reverse = {{reverse}}</pre>-->
+      <th ng-click="sortBy('name')">Company <i class="fa fa-fw fa-sort"></i></th>
+      <th ng-click="sortBy('city')">City <i class="fa fa-fw fa-sort"></i></th>
+      <th ng-click="sortBy('costOfLiving')">Cost of Living <i class="fa fa-fw fa-sort"></i></th>
       <th>Show On Map</th>
     </tr>
     </thead>
-    <tr ng-repeat="x in locations | orderBy:myOrderBy |filter:searchString">
+    <tr ng-repeat="x in locations | orderBy:propertyName:reverse |filter:searchString:strict">
       <td>{{ x.name }}</td>
       <td>{{ x.city }}</td>
       <td>{{ x.costOfLiving }}</td>

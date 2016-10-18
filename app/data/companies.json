@@ -3,6 +3,7 @@
     {
       "name": "Microsoft",
       "city": "Redmond",
+      "address": "",
       "costOfLiving": "High",
       "lat": 47.65885,
       "long": -122.14178
@@ -10,13 +11,39 @@
     {
       "name": "Facebook",
       "city": "Menlo Park",
+      "address": "",
       "costOfLiving": "Outragous",
       "lat": 37.48462,
       "long": -122.14786
     },
     {
+      "name": "Amazon",
+      "city": "Seattle",
+      "address": "",
+      "costOfLiving": "High",
+      "lat": 47.62229,
+      "long": -122.33649
+    },
+    {
+      "name": "Google",
+      "city": "Mountain View",
+      "address": "",
+      "costOfLiving": "Outragous",
+      "lat": 37.42233,
+      "long": -122.08442
+    },
+    {
+      "name": "Palantir",
+      "city": "Palo Alto",
+      "address": "",
+      "costOfLiving": "Outragous",
+      "lat": 37.44260,
+      "long": -122.16216
+    },
+    {
       "name": "Zillow",
       "city": "Seattle",
+      "address": "",
       "costOfLiving": "High",
       "lat": 47.60764,
       "long": -122.33812
@@ -24,10 +51,116 @@
     {
       "name": "Epic",
       "city": "Wisconsin",
+      "address": "",
       "costOfLiving": "Dirt cheap",
       "lat": 42.99682019999999,
       "long": -89.56801139999999
+    },
+    {
+      "name": "Zappos",
+      "city": "Las Vegas",
+      "address": "400 Stewart Ave, Las Vegas, NV 89101",
+      "costOfLiving": "Cheap",
+      "lat": 36.172699,
+      "long": -115.139272
+    },
+    {
+      "name": "Qualcomm",
+      "city": "San Diego",
+      "address": "5788 Pacific Center Blvd San Diego, CA 92121",
+      "costOfLiving": "High",
+      "lat": 32.904698 ,
+      "long": -117.195804
+    },
+    {
+      "name": "Bloomberg",
+      "city": "New York",
+      "address": "731 Lexington Avenue New York, NY 10022",
+      "costOfLiving": "High",
+      "lat": 40.761749,
+      "long": -73.968005
+    },
+    {
+      "name": "IBM",
+      "city": "New York",
+      "address": "1 New Orchard Road Armonk, New York 10504-1722",
+      "costOfLiving": "High",
+      "lat": 41.108302,
+      "long": -73.720468
+    },
+    {
+      "name": "Intel",
+      "city": "Santa Clara",
+      "address": "2200 Mission College Blvd, Santa Clara, CA 95054-1549",
+      "costOfLiving": "High",
+      "lat": 37.387591,
+      "long": -121.963787
+    },
+    {
+      "name": "Texas Instruments",
+      "city": "Dallas",
+      "address": "12500 T I Blvd, Dallas, TX 75243",
+      "costOfLiving": "Low",
+      "lat": 32.911373,
+      "long": -96.755239
+    },
+    {
+      "name": "EMC",
+      "city": "Hopkinton",
+      "address": "176 South St.",
+      "costOfLiving": "Medium",
+      "lat": 42.19421,
+      "long": -71.544776
+    },
+    {
+      "name": "Dell",
+      "city": "Round Rock",
+      "address": "1 Dell Way",
+      "costOfLiving": "Low",
+      "lat": 30.484028,
+      "long": -97.666130
+    },
+    {
+      "name": "SpaceX",
+      "city": "Hawthorne",
+      "address": "1 Rocket Road, Hawthorne, California",
+      "costOfLiving": "High",
+      "lat": 33.920587,
+      "long": -118.327140
+    },
+    {
+      "name": "UPS",
+      "city": "Georgia",
+      "address": "55 Glenlake Pkwy. N.E",
+      "costOfLiving": "Medium",
+      "lat": 33.943347,
+      "long": -84.360167
+    },
+    {
+      "name": "Lockheed Martin",
+      "city": "Bethesda",
+      "address": "6801 Rockledge Dr.",
+      "costOfLiving": "Medium",
+      "lat": 39.03099,
+      "long": -77.138944
+    },
+    {
+      "name": "FedEx",
+      "city": "Memphis",
+      "address": "942 S. Shady Grove Rd",
+      "costOfLiving": "Low",
+      "lat": 35.10565,
+      "long": -89.858314
+    },
+    {
+      "name": "ULA",
+      "city": "Centennial",
+      "address": "9501 East Panorama Circle Centennial, CO 80112",
+      "costOfLiving": "Low",
+      "lat": 39.578726,
+      "long": -104.878571
     }
+
   ]
 }
 
